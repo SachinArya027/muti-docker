@@ -31,8 +31,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: multi-gh
-          environment_name: Multigh-env
+          application_name: complex
+          environment_name: Complex-env
           existing_bucket_name: elasticbeanstalk-us-west-2-593897036212
           region: us-west-2
           version_label: ${{ github.sha }}
